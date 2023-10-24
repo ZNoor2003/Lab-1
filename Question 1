@@ -1,0 +1,21 @@
+1 #include <iostream>
+ 2 
+ 3 #QUESTION # 1:
+ 4 
+ 5 #include <stdio.h>
+ 6 
+ 7 int main()
+ 8 {
+ 9 int empID,salaryPerHour;
+10 float workingHours;
+11 printf("Enter Employee Salary per hour: ");
+12 scanf("%d", &salaryPerHour);
+13 printf("\nEnter Employee ID:");
+14 scanf("%d", &empID);
+15 printf("\nEnter working hours of this month:");
+16 scanf("%f", &workingHours);
+17 printf("Employee ID: %d",empID);
+18 printf("\nThe Total Salary of the Employee: Rs.%.2f",salaryPerHour*workingHours);
+19 return 0;
+20 }
+21 
